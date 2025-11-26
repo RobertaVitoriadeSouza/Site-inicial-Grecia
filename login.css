@@ -1,0 +1,29 @@
+body{
+      font-family: sans-serif;
+      background: url(fotos/imagem\ fundo.jpeg);
+       background-repeat: no-repeat;
+    background-size: cover;
+}
+.email,.senha {
+    position: relative; 
+    margin-bottom: 20px; 
+    
+}
+.email label,.senha label {
+    position: absolute;
+    top: 50%;/*marcio  Centraliza o ícone na vertical */
+    transform: translateY(-50%);/*marcio  Centraliza o ícone na vertical */
+    left: 15px; /* marcio posiçiona o meu icom a esquerda */
+    color: black; 
+    font-size: 1.1rem;
+}
+.email input, .senha input {
+   padding-left: 45px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 30px;     
+    color: #333; }
+    
