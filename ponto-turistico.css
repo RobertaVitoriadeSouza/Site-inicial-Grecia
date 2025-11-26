@@ -1,0 +1,77 @@
+body{
+      font-family: sans-serif;
+}
+
+#nav{
+    background-color: #1A2142;
+   height: 60px;
+   width: 100%;
+   margin: 0px;
+    padding: 0px;
+     gap: 34px;
+    display: flex;
+    align-items: center;
+justify-content: flex-end;
+position: static;}
+
+
+    #nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 12px;
+    
+    }
+    #nav a:hover{
+         transform: scale(1.1) ;
+  transition: all 0.3s ease-in-out;
+  color: #1e5e63;
+    }
+header h1{
+    font-size: 100px;
+    color: #dcf1f2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     text-shadow: 
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgba(0, 0, 0, 0),
+    0 0 120px rgba(0, 0, 0, 0);
+    margin: 40px    ;
+}
+header{
+
+     background-image: url(fotos/ponto\ turistico\ 1.jpeg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4px;
+    height: 600px;
+    } 
+    header h2{
+    font-size:30px;
+    color: #dcf1f2;
+    align-items: flex-end;
+     text-shadow: 
+    0 0 40px rgb(0, 0, 0),
+    0 0 80px rgba(0, 0, 0, 0),
+    0 0 120px rgba(0, 0, 0, 0);
+    padding: 10px;
+    }
+#acropole{
+   margin: 10px;
+   padding: 20px;
+}
+#acropole img{
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+#acropole h1{
+    font-size: 40px;
+
+}
+#acropole h2 {
+    display: flex;          
+    align-items: flex-start;  
+    gap: 20px;   }          
