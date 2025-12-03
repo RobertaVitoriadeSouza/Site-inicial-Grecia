@@ -1,0 +1,54 @@
+body { font-family: sans-serif; 
+    background: url(fotos/fundo.quiz.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+     }
+    main {
+        justify-content: center; 
+    align-items: center;
+ height: 45rem;
+      
+    }
+   .fotos div img{ 
+        width: 15rem; 
+        height: 8rem; 
+        gap: 2rem;
+         margin: 0.5rem;} 
+header h1{ 
+    font-size: 1.0rem; 
+ text-align: center; 
+ font-weight: bold; 
+ margin: 0.5rem; }
+ #botao button{ 
+    text-decoration: none; 
+    border-radius: 2rem; 
+    height: 2rem;
+     width: 10rem; 
+    font-size: 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s ease; }
+     #botao button a{ 
+        text-decoration: none;
+         color: #1A2142; 
+         font-weight: bold; }
+         #botao button:hover
+          { background-color: #23cddc; 
+        }
+        #diva button{ 
+    text-decoration: none; 
+    border-radius: 2rem; 
+    height: 2rem;
+     width: 10rem; 
+    font-size: 1rem;
+     cursor: pointer;
+     transition: background-color 0.3s ease; }
+
+     #diva button a{ 
+    
+        text-decoration: none;
+         color: #1A2142; 
+         font-weight: bold; }
+         #diva button:hover
+          { background-color: #23cddc; 
+        }
